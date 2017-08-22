@@ -1,0 +1,82 @@
+
+
+
+#interactive-map {
+    min-width: 1000px;
+    background: url(/assets/bgtop-52389e9d366471308914b4c3fd328afc.jpg) repeat-x scroll top center
+}
+#interactive-map .map-container {
+    background: url(/assets/map1-eb98c8836c53395492808fa56a982ffc.png) no-repeat scroll 0 0;
+    display: block;
+    height: 510px;
+    margin: 0 auto;
+    position: relative;
+    width: 1000px
+}
+#interactive-map a {
+    position: absolute;
+    display: block;
+    font: bold italic 11px/14px Arial;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px #000;
+    z-index: 20
+}
+#interactive-map a:hover {
+    text-decoration: underline
+}
+#interactive-map a .smallcity {
+    background: url(../assets/mapiconblack-6163d2a2e84e5fa8064f9a51425af194.png) no-repeat scroll 0 0;
+    height: 26px;
+    position: absolute;
+    width: 21px
+}
+#interactive-map a .smallcity:hover {
+    background: url(../assets/mapiconred-644036b80e5da94ab6dd8aa76a278b32.png) no-repeat scroll 0 0
+}
+#interactive-map a .bigcity {
+    background: url(../assets/mapiconblue-38b3b9aad13f137a9e5fac6c61a6592b.png) no-repeat scroll 0 0;
+    height: 26px;
+    position: absolute;
+    width: 21px
+}
+#interactive-map a .bigcity:hover {
+    background: url(../assets/mapiconredstar-bb6c4c3c10f64129e2ae0ee95d5ab858.png) no-repeat scroll 0 0
+}
+#interactive-map a:hover .smallcity {
+    background: url(../assets/mapiconred-644036b80e5da94ab6dd8aa76a278b32.png) no-repeat scroll 0 0
+}
+#interactive-map a:hover .bigcity {
+    background: url(../assets/mapiconredstar-bb6c4c3c10f64129e2ae0ee95d5ab858.png) no-repeat scroll 0 0
+}
+#interactive-map .mcityname {
+    font-size: 14px
+}
+#interactive-map.north-cyprus {
+    display: #000;
+    position: relative;
+    width: 100%;
+    height: 470px;
+    background: url(../assets/map1-eb98c8836c53395492808fa56a982ffc.png) no-repeat scroll 0 0
+}
+#interactive-map.north-cyprus a {
+    color: #111;
+    text-shadow: 1px 1px 3px #fff
+}
+
+.ahover {
+    width: 1000px;
+    height: 559px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10
+}
+#interactive-map .title{
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 300;
+    position: relative;
+    top: 40px;
+    left: -70px;
+}
